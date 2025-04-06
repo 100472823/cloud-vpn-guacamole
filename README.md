@@ -60,6 +60,44 @@ Cliente Web (Usuario Final)
             |
             v
 [Backups CIFS - Synology NAS en 192.168.x.x]
+
+---
+
+## 📸 Screenshots
+
+A continuación se muestran algunas capturas clave del sistema en funcionamiento:
+
+### 🔐 Configuración de WireGuard - VPS (Server)
+
+![WireGuard VPS](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233304.png?raw=true)
+
+---
+
+### 🔐 Configuración de WireGuard - Container Proxmox (Cliente)
+
+![WireGuard Container](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233328.png?raw=true)
+
+---
+
+### ✅ Verificación de Certificado SSL - Reverse Proxy con Let's Encrypt
+
+![Certificado Let's Encrypt](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233457.png?raw=true)
+
+---
+
+### 🧩 Página de Login Personalizada con Branding
+
+![Login Branding](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233531.png?raw=true)
+
+---
+
+### 🔐 Código TOTP 2FA en Apache Guacamole
+
+![2FA TOTP](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233549.png?raw=true)
+
+---
+
+
 🚨 Problemas Técnicos Encontrados y Soluciones Aplicadas
 🛑 Problema con la conexión a Internet al activar WireGuard
 Al activar WireGuard, inicialmente se perdió conexión DNS e internet dentro del contenedor. Esto ocurrió porque la configuración predeterminada de WireGuard redirigía todo el tráfico a través de la interfaz VPN (wg0).
