@@ -1,0 +1,9 @@
+<user-mapping>
+    <authorize username="jrojas" password="your-password">
+        <connection name="SSH Ubuntu Dev">
+            <protocol>ssh</protocol>
+            <param name="hostname">192.168.0.244</param>
+            <param name="port">22</param>
+        </connection>
+    </authorize>
+</user-mapping>

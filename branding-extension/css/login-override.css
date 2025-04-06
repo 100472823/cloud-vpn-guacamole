@@ -1,0 +1,8 @@
+body.login-ui {
+    background-color: #000;
+    color: #fff;
+}
+.login-ui .login-dialog {
+    background-color: #121212;
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+{
+    "APP": {
+      "NAME": "NetSecure RojasEnterprise, Apache Guacamole Server"
+    },
+    "LOGIN": {
+      "HELP": "Acceso remoto privado y seguro.",
+      "FOOTER": "Copyright Javier Rojas"
+    }
+  }
+  
