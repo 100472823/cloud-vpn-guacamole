@@ -9,6 +9,57 @@ Este proyecto consiste en un sistema seguro de acceso remoto basado en **Apache 
 El sistema incluye personalización completa del frontend, integración de autenticación de dos factores (**TOTP**), y backups externos sobre un **NAS Synology**. Ha sido diseñado desde cero con énfasis en la seguridad, la privacidad y la fiabilidad.
 
 ---
+## 📸 Screenshots
+
+A continuación se muestran algunas capturas clave del sistema en funcionamiento:
+
+### 🔐 Configuración de WireGuard - VPS (Server)
+
+![WireGuard VPS](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233304.png?raw=true)
+
+---
+
+### 🔐 Configuración de WireGuard - Container Proxmox (Cliente)
+
+![WireGuard Container](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233328.png?raw=true)
+
+---
+
+### ✅ Verificación de Certificado SSL - Reverse Proxy con Let's Encrypt
+
+![Certificado Let's Encrypt](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233457.png?raw=true)
+
+---
+
+### 🧩 Página de Login Personalizada con Branding
+
+![Login Branding](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233531.png?raw=true)
+
+---
+
+### 🔐 Código TOTP 2FA en Apache Guacamole
+
+![2FA TOTP](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233549.png?raw=true)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📚 Tecnologías Usadas (Detalladas)
 
@@ -60,40 +111,6 @@ Cliente Web (Usuario Final)
             |
             v
 [Backups CIFS - Synology NAS en 192.168.x.x]
-
----
-
-## 📸 Screenshots
-
-A continuación se muestran algunas capturas clave del sistema en funcionamiento:
-
-### 🔐 Configuración de WireGuard - VPS (Server)
-
-![WireGuard VPS](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233304.png?raw=true)
-
----
-
-### 🔐 Configuración de WireGuard - Container Proxmox (Cliente)
-
-![WireGuard Container](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233328.png?raw=true)
-
----
-
-### ✅ Verificación de Certificado SSL - Reverse Proxy con Let's Encrypt
-
-![Certificado Let's Encrypt](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233457.png?raw=true)
-
----
-
-### 🧩 Página de Login Personalizada con Branding
-
-![Login Branding](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233531.png?raw=true)
-
----
-
-### 🔐 Código TOTP 2FA en Apache Guacamole
-
-![2FA TOTP](https://github.com/100472823/cloud-vpn-guacamole/blob/main/docs/screenshots/Captura%20de%20pantalla%202025-04-05%20233549.png?raw=true)
 
 ---
 
