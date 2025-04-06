@@ -102,7 +102,7 @@ La URL original /guacamole/ causaba errores si se configuraba incorrectamente en
 
 ✅ Solución:
 
-Se configuró correctamente en NGINX con ruta completa: proxy_pass http://10.200.200.2:8080/guacamole/.
+Se configuró correctamente en NGINX con ruta completa: proxy_pass http://vpn_client_guaca_container:8080/guacamole/.
 
 📂 Estructura de Archivos del Branding Personalizado
 
@@ -123,10 +123,8 @@ HTTPS estricto (TLS 1.2+) configurado en el proxy NGINX.
 💾 Estrategia de Backup
 Backups manuales y automáticos realizados desde el contenedor a un NAS externo:
 
-bash
-Copiar
-Editar
-mount -t cifs -o username=jrojas,password=XXXXXX //192.168.0.4/Privado/proxmox-projects/backups /mnt/nas-backups
+
+mount -t cifs -o username=jrojas,password=XXXXXX //local_backup_server/Privado/proxmox-projects/backups /mnt/nas-backups
 Se incluyen archivos de configuración, bases de datos, branding y snapshots completos del contenedor.
 
 📌 Aprendizajes Clave del Proyecto
